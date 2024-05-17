@@ -262,6 +262,10 @@ let star3 = document.querySelector(".star3")
 let star4 = document.querySelector(".star4")
 let star5 = document.querySelector(".star5")
 let bool = true;
+// let bool1 = true;
+// let bool2 = true;
+// let bool3 = true;
+// let bool4= true;
 function changeColor() {
     let contentHello = document.querySelector(".content-hello")
     let hello = document.querySelector(".hello")
@@ -344,12 +348,21 @@ function changeColorStar1() {
     if (bool == true) {
 
 
-        star1.style.color = 'black ';
+        star1.style.color = 'yellow ';
+        star2.style.color = 'black ';
+        star3.style.color = 'black ';
+        star4.style.color = 'black ';
+        star5.style.color = 'black ';
+
 
     }
     else {
 
         star1.style.color = 'yellow ';
+        star2.style.color = 'black ';
+        star3.style.color = 'black ';
+        star4.style.color = 'black ';
+        star5.style.color = 'black ';
 
     }
 
@@ -363,13 +376,19 @@ function changeColorStar2() {
 
 
 
-        star2.style.color = 'black ';
+        star2.style.color = 'yellow ';
+        star3.style.color = 'black ';
+        star4.style.color = 'black ';
+        star5.style.color = 'black ';
 
     }
     else {
 
         star1.style.color = 'yellow ';
         star2.style.color = 'yellow ';
+        star3.style.color = 'black ';
+        star4.style.color = 'black ';
+        star5.style.color = 'black ';
 
     }
 
@@ -382,8 +401,11 @@ function changeColorStar3() {
 
 
 
-
-        star3.style.color = 'black ';
+        star1.style.color = 'yellow ';
+        star2.style.color = 'yellow ';
+        star3.style.color = 'yellow ';
+        star4.style.color = 'black ';
+        star5.style.color = 'black ';
 
     }
     else {
@@ -391,6 +413,8 @@ function changeColorStar3() {
         star1.style.color = 'yellow ';
         star2.style.color = 'yellow ';
         star3.style.color = 'yellow ';
+        star4.style.color = 'black ';
+        star5.style.color = 'black ';
 
     }
 
@@ -403,8 +427,11 @@ function changeColorStar4() {
 
 
 
-
-        star4.style.color = 'black ';
+        star1.style.color = 'yellow ';
+        star2.style.color = 'yellow ';
+        star3.style.color = 'yellow ';
+        star4.style.color = 'yellow ';
+        star5.style.color = 'black ';
 
     }
     else {
@@ -413,6 +440,8 @@ function changeColorStar4() {
         star2.style.color = 'yellow ';
         star3.style.color = 'yellow ';
         star4.style.color = 'yellow ';
+        star5.style.color = 'black ';
+
 
     }
 
@@ -423,19 +452,20 @@ function changeColorStar5() {
 
     if (bool == true) {
 
-
-
-
-        star5.style.color = 'black ';
+        star5.style.color ='yellow';
+        star1.style.color = 'yellow';
+        star2.style.color = 'yellow';
+        star3.style.color = 'yellow';
+        star4.style.color = 'yellow';
 
     }
     else {
 
-        star1.style.color = 'yellow ';
-        star2.style.color = 'yellow ';
-        star3.style.color = 'yellow ';
-        star4.style.color = 'yellow ';
-        star5.style.color = 'yellow ';
+        star1.style.color = 'yellow';
+        star2.style.color = 'yellow';
+        star3.style.color = 'yellow';
+        star4.style.color = 'yellow';
+        star5.style.color = 'yellow';
 
     }
 
